@@ -1,0 +1,25 @@
+@media (min-width: 768px){
+    .header .navbar {
+        border-radius: 0;
+    }
+}
+@media only screen and (max-width:600px) {
+    iframe {
+        display: none;
+    }
+}
+@media only screen and (max-width:600px) {
+    .carousel {
+        display: none;
+    }
+}
+@media only screen and (max-width:600px) {
+    .carouselAr {
+        display: none;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .page-hide {
+        display: none;
+    }
+}

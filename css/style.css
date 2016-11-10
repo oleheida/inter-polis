@@ -1,0 +1,598 @@
+div.container-fluid, div.container {
+    padding:0;
+}
+.imp {
+    padding-left: 0!important;
+}
+/**Heder**/
+.header {
+    background: url("../img/background.jpg") no-repeat;
+}
+
+section.header{
+    background-color: #dfdfdf;
+    border-bottom: 2px solid #cfcfcf;
+}
+
+.header_navigation .navbar-default {
+    background-color: transparent;
+    border:none;
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-collapse .navbar-nav li a {
+    color: #ffffff;
+}
+.navbar-default .navbar-collapse .navbar-nav li a{
+    padding-right: 1rem;
+}
+
+.navbar-right .navbar-form {
+    margin-top: 0;
+    padding-left: 2.5rem;
+}
+
+.navbar-right .navbar-form .form-control {
+    border-radius: 0;
+}
+
+.header .header_logo {
+    padding-bottom: 10rem;
+    padding-top: 4.4rem;
+}
+
+.navbar-default .navbar-collapse .navbar-nav li a{
+    padding-top: 1rem;
+    font: 12px "Open Sans", Regular;
+    font-weight: bold;
+}
+
+.wrapper {
+    font-family:'Open Sans', sans-serif;
+}
+input.icon {
+    padding: 5px;
+}
+input.icon::-webkit-input-placeholder {
+    font-family:'FontAwesome';
+}
+input.icon::-moz-placeholder {
+    font-family:'FontAwesome';
+}
+
+.navbar-right .navbar-form p input[placeholder] {
+    font-style: italic;
+    font-size: 14px;
+    border: 1px solid #939393;
+    width: 100%;
+}
+
+.navbar-right img{
+    padding-left: 1rem;
+    padding-right: 3rem;
+}
+
+.navbar-right a{
+    color: #808080;
+    font: 18px "Open Sans", Regular;
+}
+
+.navbar-right .telephoneTwo {
+    padding-left: 6.9rem;
+}
+
+.navbar-right a:hover {
+    text-decoration: none;
+    color: #505050;
+}
+/**content**/
+section.content {
+    margin-top: 0.7rem;
+}
+section.content .privat_people a{
+    border: 1px solid #939393;
+    font: 12px "Open Sans", Regular;
+    color: #000;
+    padding: 0.2rem 1rem;
+}
+
+section.content .privat_people .privat_peopleOne{
+    position: relative;
+    left: -0.5rem;
+}
+
+section.content .privat_people a:hover {
+    color: #ffffff;
+    background-color: #3a5795;
+    font: 12px "Open Sans", Regular;
+    text-decoration: none;
+}
+
+/**content mene**/
+.content-Navbar {
+    margin-top: 2rem;
+}
+
+.content-Navbar .navbarNav{
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+
+.content-Navbar .navbarNav li{
+    list-style-type: none;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.content-Navbar .navbarNav li a {
+    font: 14px "Open Sans", Regular;
+    color: #3d3d3d;
+    font-weight: bold;
+}
+
+.content-Navbar .navbarNav li a:hover {
+    text-decoration: none;
+    color: #000;
+}
+/**contentBlokCompani**/
+.contentBlokTwo .newsHeader {
+    color: #707070;
+    text-transform: uppercase;
+    font: 20px "Roboto", Regular;
+    font-weight: bold;
+}
+
+.contentBlokTwo .carousel-control {
+    top: 9rem;
+    height: 5rem;
+    width: 3rem;
+}
+
+.contentBlokTwo .carousel-control:focus,
+.contentBlokTwo .carousel-control:hover {
+    background-color: #68769e;
+}
+
+.contentBlokTwo .carousel-control .glyphicon {
+    top: 1.2rem;
+}
+
+.contentBlokTwo .carousel-control.right {
+
+}
+
+.contentBlokTwo p {
+    color: #919191;
+    font: 13px "Open Sans", Light;
+}
+
+.overRead {
+    margin-bottom: 3rem;
+}
+
+.contentBlokTwo .read a{
+    color: #939393;
+    border-radius: 0;
+    background-color: #ffffff;
+    border: 1px solid #939393;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font: 13px "Open Sans", Light;
+    cursor: pointer;
+}
+
+.contentBlokTwo .read a:hover {
+    text-decoration: none;
+}
+
+.contentBlokTree .image .try a {
+    text-decoration: none;
+}
+
+/**contentBlokNews**/
+.contentBlokNews{
+    padding-left: 0!important;
+}
+.contentBlokNews .point .glyphicon{
+    margin-top: 1.3rem;
+}
+
+.contentBlokNews .point .glyphicon-menu-left{
+    color: #ffffff;
+    background-color: #d5d5d5;
+    padding-left: 7px;
+    margin-right: 2px;
+}
+
+.contentBlokNews .point .glyphicon-menu-right{
+    color: #ffffff;
+    background-color: #d5d5d5;
+    padding-left: 7px;
+    margin-left: 2px;
+}
+
+.contentBlokNews .point .glyphicon-menu-right:hover {
+    background-color: #afafaf;
+}
+
+.contentBlokNews .point .glyphicon-menu-left:hover {
+    background-color: #afafaf;
+}
+
+.contentBlokNews .numberAndMonht {
+
+}
+
+.contentBlokNews .numberAndMonht .number {
+    background-color: #3a5795;
+    color: #ffffff;
+    font: 21px "Roboto", Regular;
+    font-weight: bold;
+    padding: 1.7rem;
+    margin-bottom: 0;
+}
+
+.contentBlokNews .numberAndMonht .month {
+    background-color: #5c5c5c;
+    color: #ffffff;
+    font: 21px "Roboto", Regular;
+    font-weight: bold;
+    padding: 1.3rem;
+    position: relative;
+}
+
+.contentBlokNews .nameNews span {
+    font: 16px "Open Sans", Regular;
+    color: #555555;
+    text-decoration: underline;
+}
+
+.contentBlokNews .nameNews .description {
+    color: #555555;
+    font: 13px "Open Sans", Light;
+}
+
+.contentBlokNews .hr {
+    padding: 0;
+    border-bottom:1px solid #dadada ;
+}
+
+.contentBlokNews {
+    padding: 0;
+}
+
+
+
+.contentBlokNews .numberAndMonht .oktober {
+    padding-right: 15px;
+}
+
+.borderHr {
+    border-bottom: 1px solid #dadada;
+    position: relative;
+    left: 3rem;
+    padding-top: 2.4rem;
+    bottom:2rem;
+}
+
+.contentBlokNews .read {
+    padding-left: 1.2rem;
+}
+
+/**contentBlokNewsReviews**/
+
+.contentBlokNewsReviews .point .glyphicon{
+    margin-top: 1.3rem;
+}
+
+.contentBlokNewsReviews .point .glyphicon-menu-left{
+    color: #ffffff;
+    background-color: #d5d5d5;
+    padding-left: 7px;
+    margin-right: 2px;
+}
+
+.contentBlokNewsReviews .point .glyphicon-menu-right{
+    color: #ffffff;
+    background-color: #d5d5d5;
+    padding-left: 7px;
+    margin-left: 2px;
+}
+
+.contentBlokNewsReviews .point .glyphicon-menu-right:hover {
+    background-color: #afafaf;
+}
+
+.contentBlokNewsReviews .point .glyphicon-menu-left:hover {
+    background-color: #afafaf;
+}
+
+/**contentBlokNewsReviews**/
+
+.contentBlokNewsReviews .blockReviews {
+    background-color: #e9e9e9;
+    padding-left: 0;
+}
+
+.contentBlokNewsReviews .reviews {
+    margin-top: 1.4rem;
+    margin-bottom: 11px;
+    padding-left: 2rem;
+    font: 13px "Open Sans";
+    font-style: italic;
+}
+
+.contentBlokNewsReviews .nameUser {
+    color: #626262;
+    float: right;
+    font: 13px "Open Sans", Light;
+}
+
+/**contentBlokTree**/
+.image {
+    background: url("../img/people.jpg") no-repeat;
+    margin-top: 3rem;
+    padding-bottom: 6rem;
+    margin-bottom: 5rem;
+}
+
+.contentBlokTree .learn{
+    color: #ffffff;
+    font: 37px "Roboto", Regular;
+}
+
+.contentBlokTree .agent {
+    color: #ffffff;
+    font: 25px "Open Sans", Light;
+    margin-bottom: 3rem;
+}
+
+.contentBlokTree .image .try a{
+    background: white;
+    background: rgba(0, 0, 21, -0.5);
+    color: #FFFFFF;
+    border-radius: 0;
+    border: 1px solid #FFFFFF;
+    font: 17px "Open Sans", Light;
+    padding: 13px 24px;
+}
+
+.contentBlokTree .trust {
+    color: #707070;
+    font: 21px "Roboto", Regular;
+    border-bottom: 1px solid #dadada;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.contentBlokTree .menyText p{
+    color: #969696;
+    font: 14px "Open Sans", Light;
+}
+
+/**Slider**/
+
+/************************************************/
+.footer, .question, .header-third-a {
+    font-family: 'Open Sans', sans-serif;
+}
+.footer {
+    color: #E6E6E6;
+    background-color: #565656;
+}
+
+.footer-row-1 {
+    padding: 14px 0 14px 0;
+    height: auto;
+    overflow: hidden;
+}
+.footer-p-head {
+    font-size: 18px;
+}
+.footer-p-body {
+    font-size: 14px;
+}
+.footer-p-body-mobile {
+    font-size: 20px;
+}
+.footer-row-2 {
+    height: auto;
+    overflow: hidden;
+    background-color: #353535;
+    padding: 10px 0 10px 0;
+    color: #858585;
+}
+.underline {
+    text-decoration: underline;
+}
+.footer ul{
+    padding-left: 0;
+}
+.footer ul li{
+    list-style-type: none;
+}
+.footer ul li a, .footer-p-body-mobile a, .footer-icons a i{
+    text-decoration: none;
+    color: #E6E6E6;
+    cursor: pointer;
+}
+.footer ul li{
+    font-size: 14px;
+    padding-top: 18px;
+}
+.footer-icons a i {
+    font-size: 1.8em;
+    padding-right: 18px;
+    color: #858585;
+}
+.question-form input, .question-form textarea{
+    width: 95%;
+    border: 1px solid #9C9C9C;
+    margin-right: 5%;
+}
+.question-form label {
+    margin-bottom: 1em;
+    font-size: 10px;
+    color: #9C9C9C;
+}
+.question-form a {
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 8px 12px 8px 12px;
+}
+.question-form .form-button {
+    text-align: center;
+    margin-bottom: 5%;
+}
+.question-form-p-cons, .question-form-p-ask {
+    text-transform: uppercase;
+}
+.question-form-p-ask {
+    color: #424242;
+    font-size: 28px;
+}
+.question-form-p-cons {
+    color: #707070;
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/*******************/
+
+.header-third-a-text {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #808080;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #d5d5d5;
+    border-bottom: 3px solid #eeeeee;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.header-third-a img {
+    color: #808080;
+    float: left;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.header-third-a:hover {
+    text-decoration: none;
+}
+
+.header-third-a-text:hover {
+    background-color: #EEEEEE;
+}
+
+/*******/
+
+.news {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.news-archive {
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #707070;
+    font-size: 20px;
+}
+.blue-box, .black-box {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 15%;
+    margin-right: 5%;
+    margin-bottom: -10px;
+
+}
+.blue-box {
+    background-color: #3a5795;
+}
+.black-box {
+    background-color: #5c5c5c;
+}
+.news-date {
+    padding-left: 0;
+    margin-left: -1.5%;
+}
+.news-row {
+    display: inline-block;
+    border-bottom: 1px solid grey;
+    margin-top: 1%;
+}
+.news-news-title {
+    font-size: 14px;
+    text-decoration: underline;
+    color: #5c5c5c;
+}
+.news-news-news {
+    font-size: 10px;
+    margin-bottom: 5%;
+    color: #555555;
+}
+.pages ul li{
+    display: inline-block;
+}
+.pages ul li:active, .pages ul li a:hover {
+    background-color: #555;
+    color: white;
+}
+.pages ul li a {
+    border-radius: 0;
+    background-color: transparent;
+    border: 1px #555555 solid;
+    color: #555555;
+}
+.pages ul {
+    text-align: center;
+    display: inline-block;
+}
+.pagination{
+    width: 100%;
+}
+.pagination a {
+    margin: 0 1%;
+    text-align: center;
+}
+.pagination li:first-child a, .pagination li:first-child span, .pagination li:last-child a, .pagination li:last-child span {
+    border-radius: 0;
+}
+
+.bx-wrapper .bx-viewport {
+    webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+.bx-pager {
+    display: none!important;
+}
+
+.bx-default-pager {
+    display: none!important;
+}
+.bx-pager-link {
+    width: 0!important;
+}
+.bx-wrapper .bx-next{
+    right: -7px!important;
+    background: url(../img/controls-next.png) no-repeat!important;
+}
+.bx-wrapper .bx-prev{
+    left: 1px!important;
+    background: url(../img/controls-prev.png) no-repeat!important;
+}
+
+.date-box{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    background-image: url("../img/squer.png");
+    background-size: cover;
+    width: 100%;
+}
+.pagination li a, .pagination li span {
+    float: none!important;
+}
+.pagination li a:focus, .pagination li a:hover, .pagination li span:focus, .pagination li span:hover{
+    z-index: 0;
+}
